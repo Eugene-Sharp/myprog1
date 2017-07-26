@@ -1,3 +1,6 @@
 from django.contrib import admin
-
-# Register your models here.
+from myprog.models import Tweet
+from myprog.models import HashTag
+#Register your models here,
+admin.site.register(Tweet)
+admin.site.register(HashTag)
